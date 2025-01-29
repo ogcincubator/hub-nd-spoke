@@ -1,0 +1,149 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Code Sprint Nodes
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/3d_emblem_lockup.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+            .container
+                a.navbar-brand(href='#page-top') HOME
+                    //img(src='assets/img/navbar-logo.svg', alt='...')
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars.ms-1
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
+                        li.nav-item
+                            strong
+                                a.nav-link(href='#model') Hub & Spoke
+                        li.nav-item
+                            strong
+                                a.nav-link(href='#what') What Can I expect from a Node?
+                        li.nav-item
+                            strong
+                                a.nav-link(href='#apply') Apply to be a Node
+
+                a(href='https://github.com/opengeospatial/ogc-tiles-website' target="_blank")
+                    img(style='position: absolute; top: 0; right: 0; border: 0;' src='https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png' alt='Fork me on GitHub')
+
+        // Main
+        section#home.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Find a Code Sprint Location Near You
+                .row.justify-content-center
+                    .col-9
+                        p.text-muted 
+                            | At each 
+                            a(href='https://developer.ogc.org/sprints/') event, 
+                            | volunteers apply to host a code sprint node locally. Each node gathers the local community in an in-person event, so that they can attend together the virtual code sprint. 
+                            | You can learn about the Hub & Spoke model for code sprints on
+                            a(href='#model') this 
+                            | section.
+                        p.text-muted 
+                            | Find bellow a list of nodes that you can join on 
+                            a(href='https://developer.ogc.org/sprints/25/') this
+                            | sprint;
+                            | click on a node, to find out more information.
+                            | If you would like to volunteer to host a node, please read
+                            a(href='#apply') this 
+                            | section.
+                | <iframe scrolling="yes" width="100%" height="600" src="https://ogcincubator.github.io/code-sprint-nodes/"></iframe>
+
+        // Model
+        section#model.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Hub & Spoke
+                .row.justify-content-center
+                    .col-6
+                        p.text-muted 
+                            | TODO
+        // What
+        section#what.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase What Can I expect from a Node?
+                .row.justify-content-center
+                    .col-6
+                        p.text-muted 
+                            | TODO
+        // Apply
+        section#apply.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Apply to be a Node
+                .row.justify-content-center
+                    .col-6
+                        p.text-muted 
+                            | TODO                       
+
+        // About
+        section#about.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase About
+                .row.justify-content-center
+                    .col-6
+                        p.text-muted 
+                            | TODO    
+
+        // Footer
+        footer.footer.py-4
+            .container
+                .row.align-items-center
+                    .col-lg-4.text-lg-start
+                        | Copyright &copy; 2025. Open Geospatial Consortium all rights reserved
+                    .col-lg-4.my-3.my-lg-
+                        | Want to learn about OGC Standards?
+                        | Check out the
+                        a(href="https://developer.ogc.org/" target="_blank") developer website
+                        | .
+                        //- a.btn.btn-dark.btn-social.mx-2(href='https://twitter.com/opengeospatial/' target="_blank")
+                        //-     i.fab.fa-twitter
+                        //- a.btn.btn-dark.btn-social.mx-2(href='https://www.youtube.com/user/ogcvideo' target="_blank")
+                        //-     i.fab.fa-youtube
+                        //- a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/company/open-geospatial-consortium' target="_blank")
+                        //-     i.fab.fa-linkedin-in
+                    .col-lg-4.text-lg-end
+                        a.link-dark.text-decoration-none.me-3(data-bs-toggle='modal', data-bs-target='#portfolioModal1') Privacy Policy
+                    //-     a.link-dark.text-decoration-none(href='#!') Terms of Use
+
+        // Portfolio Modals
+        include includes/portfolio-modal-1
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
+
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        // * *                               SB Forms JS                               * *
+        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
