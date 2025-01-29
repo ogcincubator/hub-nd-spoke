@@ -1,4 +1,4 @@
-# README
+# Hub & Spoke Code Sprint Nodes
 
 Install with:
 
