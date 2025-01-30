@@ -46,14 +46,15 @@ html(lang='en')
                             strong
                                 a.nav-link(href='#apply') Apply to be a Node
 
-                a(href='https://github.com/ogcincubator/hub-nd-spoke/' target="_blank")
-                    img(style='position: absolute; top: 0; right: 0; border: 0;' src='https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png' alt='Fork me on GitHub')
+                //- a(href='https://github.com/ogcincubator/hub-nd-spoke/' target="_blank")
+                //-     img(style='position: absolute; top: 0; right: 0; border: 0;' src='https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png' alt='Fork me on GitHub')
 
         // Main
         section#home.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Find a Code Sprint Location Near You
+                        i.fas.fa-map-marker-alt
                 .row.justify-content-center
                     .col-9
                         p.text-muted 
@@ -78,10 +79,18 @@ html(lang='en')
             .container
                 .text-center
                     h2.section-heading.text-uppercase Hub & Spoke
+                    h3.section-subheading.text-muted A decentralized approach to code sprints
                 .row.justify-content-center
                     .col-6
                         p.text-muted 
-                            | TODO
+                            | The Hub and Spoke model of a hybrid event combines the main event with auxiliary, secondary sites, known as nodes.
+                            | People can join the central event through the auxiliary sites or log in independently.
+                            | This flexibility allows an incredibly wide range of experiences and modes of participation.
+                            | It provides scaling, at the same time that it can nurture local communities. 
+                            | Other benefits of the hub and spoke model may include: increased learning, interaction and connection, flexibility, convenience and a decreased carbon footprint.
+                    img(src='assets/img/sprint-topology1.png', alt='...', style='width:40%', title='Hub & Spoke Model applied to code sprints')
+
+
         // What
         section#what.page-section
             .container
