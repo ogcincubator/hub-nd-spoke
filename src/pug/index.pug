@@ -41,7 +41,7 @@ html(lang='en')
                                 a.nav-link(href='#model') Hub & Spoke
                         li.nav-item
                             strong
-                                a.nav-link(href='#what') What Can I expect from a Node?
+                                a.nav-link(href='#what') What can I expect from a node?
                         li.nav-item
                             strong
                                 a.nav-link(href='#apply') Apply to be a Node
@@ -95,11 +95,14 @@ html(lang='en')
         section#what.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase What Can I expect from a Node?
+                    h2.section-heading.text-uppercase What can I expect from a node?
                 .row.justify-content-center
                     .col-6
-                        p.text-muted 
-                            | TODO
+                        p.text-muted If you attend the code sprint from a node, you can expect a place to work during the duration of the code sprint, with reliable Internet connection and a group of likeminded people. 
+                        p.text-muted You can expect the host to stream the sprint scheduled meetings (e.g.: welcome session, standups, demo session), so that everyone in the room can watch and participate. Depending on the time zone, the host may skip some of these meetings and add additional ones, for the people in the node and in other nodes in the same region. 
+                        p.text-muted Depending on the host availability, you may also get some mentoring on activities, and amenities such as tea and coffee. 
+                        p.text-muted As nodes are run by volunteers, the experience may vary from node to node, and we cannot ensure the same degree of support that takes place in official OGC nodes, which are run by OGC staff. 
+
         // Apply
         section#apply.page-section.bg-light
             .container
@@ -108,17 +111,22 @@ html(lang='en')
                 .row.justify-content-center
                     .col-6
                         p.text-muted 
-                            | TODO                       
-
-        // About
-        section#about.page-section
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase About
-                .row.justify-content-center
-                    .col-6
-                        p.text-muted 
-                            | TODO    
+                            | The first requirement to host a node is an appropriate space for everyone to gather. Node locations can be meeting rooms or other venues.
+                            | The other key things are:
+                        ul
+                                li 
+                                    p.text-muted Good-sized screen 
+                                li
+                                    p.text-muted Good audio
+                                li
+                                    p.text-muted Reasonably reliable internet connection
+                                    
+                        p.text-muted Catering like coffee, or lunch are completely optional, although its valuable to identify some places nearby where participants can get food and beverages. 
+                        p.text-muted The attendees at a node location might be a functional group or department, from the same geographic area, or with similar interests. The host is welcome to setup a particular activity that they will promote and support during the sprint.
+                        p.text-muted There are no size requirements for running a node: It might be a handful of people or many dozens of people. During registration, hosts are encouraged to setup a cap to meet their space requirements.
+                        p.text-muted Other than welcoming the participants and answering logistic questions, other support from hosts (like mentoring) is on a volunteering basis. However, hosts will be expected to stream the schedule meetings in the agenda, whenever these take place at a reasonable time for their time zone. They are also welcome to setup additional meetings, as needed.
+                        p.text-muted Although nodes are informal, participants and hosts are subject to 
+                            a(href='https://www.ogc.org/about-ogc/policies/conduct/') OGC’s Principles of Conduct. 
 
         // Footer
         footer.footer.py-4
@@ -131,15 +139,8 @@ html(lang='en')
                         | Check out the
                         a(href="https://developer.ogc.org/" target="_blank") developer website
                         | .
-                        //- a.btn.btn-dark.btn-social.mx-2(href='https://twitter.com/opengeospatial/' target="_blank")
-                        //-     i.fab.fa-twitter
-                        //- a.btn.btn-dark.btn-social.mx-2(href='https://www.youtube.com/user/ogcvideo' target="_blank")
-                        //-     i.fab.fa-youtube
-                        //- a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/company/open-geospatial-consortium' target="_blank")
-                        //-     i.fab.fa-linkedin-in
                     .col-lg-4.text-lg-end
                         a.link-dark.text-decoration-none.me-3(data-bs-toggle='modal', data-bs-target='#portfolioModal1') Privacy Policy
-                    //-     a.link-dark.text-decoration-none(href='#!') Terms of Use
 
         // Portfolio Modals
         include includes/portfolio-modal-1
