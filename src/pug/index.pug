@@ -130,7 +130,22 @@ html(lang='en')
                         p.text-muted If you would like to host a code sprint node, please get in touch by 
                                      a(href='mailto:devrel@ogc.org')
                                             i.fa.fa-envelope
-
+        // About
+        section#about.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase About
+                .row.justify-content-center
+                    .col-6
+                        p.text-muted This
+                            a(href='https://ogcincubator.github.io/code-sprint-nodes/') map
+                            | uses 
+                            a(href='https://raw.githubusercontent.com/ogcincubator/code-sprint-nodes/refs/heads/main/src/nodes.json') data 
+                            | encoded using the Points of Interest (POI) Standard candidate.
+                            | A "point of interest" is a location about which information of general interest is available.
+                            | Find more about this specification
+                            a(href='https://github.com/opengeospatial/poi') here.
+                            
         // Footer
         footer.footer.py-4
             .container
