@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Agency v7.0.5 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2025 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+* Start Bootstrap - Hub and Spoke Model for Code Sprints v7.0.5 (https://github.com/ogcincubator/hub-nd-spoke/)
+* Copyright 2013-2025 Joana Simoes
+* Licensed under MIT (https://github.com/StartBootstrap/hub-nd-spoke/blob/master/LICENSE)
 */
 //
 // Scripts
