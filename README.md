@@ -1,20 +1,41 @@
 # Hub & Spoke Code Sprint Nodes
 
-Install with:
+## Quick Start :rocket:
+
+Clone this repository with:
+
+`git clone https://github.com/ogcincubator/hub-nd-spoke.git`
+
+Then enter the folder:
+
+`cd hub-nd-spoke`
+
+Install dependencies:
 
 `npm install`
 
-Run with:
+Start development server:
 
 `npm start`
 
-Build with:
+Once you start the development server, the site will be available at:
 
-`npm run build`
+`http://localhost:3000`
 
-Publish on tiles.developer.ogc.org with:
+The hot reload will ensure that the changes you do on the code will be reflected on the browser.
 
-`git subtree push --prefix dist origin gh-pages`
+### Note about Publishing the Website
+
+Commit all your changes to the `master` branch. **The `gh-pages` branch will be wiped each time, and generated dynamically from [GitHub actions](https://github.com/ogcincubator/hub-nd-spoke/actions/)**
+
+## Contributing 🤝
+
+This website is a live project and we welcome contributions from the community! If you have suggestions for improvements, found a bug, or want to add new features, feel free to:
+
+* Open an [issue](https://github.com/ogcincubator/hub-nd-spoke/issues) to start a discussion
+* Submit a [pull request](https://github.com/ogcincubator/hub-nd-spoke/pulls) with your proposed changes
+
+We appreciate your support in making this website better!
 
 ## License
 
